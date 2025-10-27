@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# OS/Editor files
+.DS_Store
+.vscode/
+
+# Local secrets & data
+.env
+data.sqlite3
+
+# Streamlit cache
+.streamlit/
+
+# Test cache
+.pytest_cache/
