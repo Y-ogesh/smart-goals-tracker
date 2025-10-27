@@ -43,17 +43,17 @@ It’s lightweight, goal-agnostic, and designed for real users who want structur
 ---
 
 ## 🧩 Architecture
-smart-goals-tracker/
-├── app.py # Streamlit main interface
-├── db.py # SQLite CRUD and streak logic
-├── gpt.py # AI generation, summary, and quote logic
-├── utils.py # Helper functions for dates & parsing
-├── report.py # PDF builder
-├── tests/ # Automated test suite (pytest)
-├── requirements.txt
-├── .env.example # Env vars (OPENAI_API_KEY)
-└── data.sqlite3 # Local database (auto-created)
 
+📁 **smart-goals-tracker/**
+- `app.py` – Streamlit main interface  
+- `db.py` – SQLite CRUD + streak tracking  
+- `gpt.py` – OpenAI GPT integration (plans, summaries, quotes)  
+- `utils.py` – Helper utilities for date/time logic  
+- `report.py` – PDF generator (ReportLab)  
+- `tests/` – Automated unit and mock tests (pytest)  
+- `.env.example` – Environment variable template  
+- `requirements.txt` – Dependencies list  
+- `README.md` – Project documentation  
 
 ---
 
